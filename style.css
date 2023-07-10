@@ -204,18 +204,6 @@ header .follow a:hover{
     left: 0;
     animation: skillsIntro 5s steps(30) infinite;
 }
-
-@keyframes skillsIntro {
-    0% {
-        left: 0;
-    }
-    40%, 60% {
-        left: 102%;
-    }
-    0% {
-        left: 0;
-    }
-}
 .home .content .info{
     font-size: 2.5rem;
     color: var(--black_color);
@@ -279,115 +267,9 @@ header .follow a:hover{
 .about .row-1 .content .box-container .box  p span{
     color: var(--main_color);
 }
-.skills{
-    background: var(--white_color);
-    color: var(--text_color);
-}
-.skills-section .skills__content .skills__box .skills__group .skills__data img{
-    width: 2.5rem;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    padding: 3px 3px;
-}
-.skills-section {
-    padding: 6rem 0 2rem;
-}
-.skills-section .skills__group {
-    grid-row-gap: 1rem;
-    align-items: flex-start;
-    display: grid;
-    row-gap: 1rem;
-}
-.skills-section .section__title h2{
-    font-size: 3rem;
-}
-.section__title {
-    text-align: center;
-    color: var(--main_color);
-    font-size: 4rem;
-}
-.section__subtitle{ 
-    text-align: center;
-    color: var(--text_color);
-    display: block;
-    font-size: 1.5rem;
-    margin-bottom: 4rem;
-}
-.skills__content {
-    border: 1px solid var(--black_color);
-    border-radius: 1.25rem;
-    padding: 2rem 4rem;
-}
-.skills__title {
-    color: var(--text_color);
-    font-size: 1rem;
-    font-weight: 500;
-    margin-bottom: 1.5rem;
-    text-align: center;
-}
-.skills__container {
-    color: var(--black_color);
-    -webkit-column-gap: 3rem;
-    column-gap: 3rem;
-    grid-template-columns: repeat(2,350px);
-    justify-content: center;
-}
-.grid {
-    grid-gap: 1.5rem;
-    display: grid;
-    gap: 1.5rem;
-}
-.container {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 968px;
-}
-.skills-section .skills__data h3 {
-    display: block;
-    color: var(--main_color);
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-.skills__box {
-    color: var(--text_color);
-    -webkit-column-gap: 2.5rem;
-    column-gap: 2.5rem;
-    display: flex;
-    justify-content: center;
-}
-.skills__group {
-    grid-row-gap: 1rem;
-    align-items: flex-start;
-    display: grid;
-    row-gap: 1rem;
-}
-.skills__title{
-    color: var(--text_color);
-    font-size: 1.5rem;
-    padding-bottom: 2rem;
-    text-decoration: underline;
-}
-.fa-brands {
-    font-family: boxicons!important;
-    font-weight: 400;
-    font-size: 2rem;
-    color: #5adcfc;
-    line-height: 2;
-    text-rendering: auto;
-    display: inline-block;
-    text-transform: none;
-    -webkit-font-smoothing: antialiased;
-}
-.skills__name {
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 18px;
-}
+
+/* Use your own creativity for skills section 🙂 */
+
 .work__container {
     gap: 3rem;
     grid-template-columns: repeat(3,-webkit-max-content);
