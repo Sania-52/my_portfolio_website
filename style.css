@@ -1,10 +1,6 @@
 :root{
-        /*__________ Light Theme _________ */
-        --white_color: #ffffff;
-        --main_color: #a955ed;
-        --black_color: #111111;
-        --shadow_color: #cfcfcf;
-        --text_color: #222222;
+        /*__________ Light Theme _________
+        Feel free to use your fav color codes */
 }
 *{
     margin: 0;
@@ -28,11 +24,7 @@ body{
     padding-left: 30rem;
 }
 body.active{
-    --white_color: #111111;
-    --main_color: #a955ed;
-    --black_color: #ffffff;
-    --shadow_color: #050505;
-    --text_color: #f3f3f3;
+    /*Feel free to use your fav color codes */
 }
 section{
     padding: 1rem 5%;
