@@ -141,6 +141,7 @@ header .follow a:hover{
     cursor: pointer;
     display: none;
 }
+
 .home{
     background: var(--white_color);
     display: flex;
