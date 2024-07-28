@@ -6,6 +6,7 @@ const themeBtn = document.querySelector('.themeBtn');
 const themeIcon = document.querySelector('.themeIcon');
 
 
+
 themeToggle.onclick =() => {
     themeBtn.classList.toggle('active');
 
